@@ -1,4 +1,22 @@
+Pasos
+
 git init -- para iniciar la conexión con la carpeta.
 ls -- muestra el contenido de la carpeta.
 git add . -- añadir todos los archivos (git add img, solo agregará esa carpeta el punto es para añadir todo)
 git status -- para verificar el estado de los archivos
+
+git branch -M main -- pasa de (MASTER) a (main)
+
+(Antes de hacer un Commit se debe colocar quien lo hace colocando uno de los dos)
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+(Después hacemos el comentario)
+git commit -m "Mi primera página web on HTML" -- Para hacer comentarios
+
+(Hacer la conexión con la carpeta?)
+git remote add origin https://github.com/KevinParker02/HTMLcv.git
+git push -u origin main
+
+(Creamos una nueva rama)
+git checkout -b gh-page
