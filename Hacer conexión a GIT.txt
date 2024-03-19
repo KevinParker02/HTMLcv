@@ -1,0 +1,4 @@
+git init -- para iniciar la conexión con la carpeta.
+ls -- muestra el contenido de la carpeta.
+git add . -- añadir todos los archivos (git add img, solo agregará esa carpeta el punto es para añadir todo)
+git status -- para verificar el estado de los archivos

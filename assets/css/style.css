@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(166, 167, 160);
+    font-family: "Roboto", sans-serif;
+}
+
+.bar {
+    /* ancho de la franja */
+    height: 90px;
+    background-color: rgb(247, 181, 136);
+    /* Hace que los objetos estén en horizontal */
+    display: flex;
+    /* Ubica los elementos en el eje principal, en este caso lo dejará en cada extremo */
+    justify-content: space-between;
+    /* Lo que hará es dejar el contenido centrado */
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.icono{
+    height: 80px;
+}
+
+.link{
+    padding: 20px;
+    /* Negrita */
+    font-weight: 500;
+    /* Decoracion del link */
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 20px;
+}
+
+.yio{
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.datos{
+    display: flex;
+    padding: 20px;
+}
+
+.video{
+    border-radius: 30px;
+    width: 350px;
+    margin-left: 100px;
+}
